@@ -1,0 +1,14 @@
+# modules directory
+node_modules/
+
+# session files
+botane.json
+
+# image files
+*.jpg
+*.png
+*.jpeg
+trash/*.webp
+
+# lock files
+*-lock.json

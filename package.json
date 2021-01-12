@@ -1,0 +1,32 @@
+{
+  "name": "botane",
+  "version": "1.0.0",
+  "description": "simple bot whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibnusyawall/botane.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automate",
+    "baileys"
+  ],
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "moment-timezone": "^0.5.32",
+    "colors": "^1.4.0",
+    "mathjs": "^8.1.1"
+  },
+  "author": "ibnusyawall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibnusyawall/botane/issues"
+  },
+  "homepage": "https://github.com/ibnusyawall/botane#readme"
+}
