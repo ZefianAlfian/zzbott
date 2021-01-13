@@ -8,7 +8,7 @@ botane.json
 *.jpg
 *.png
 *.jpeg
-trash/*.webp
+*.webp
 
 # lock files
 *-lock.json
