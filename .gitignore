@@ -2,7 +2,7 @@
 node_modules/
 
 # session files
-botane.json
+session-zefian.json
 
 # image files
 *.jpg

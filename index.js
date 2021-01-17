@@ -33,24 +33,24 @@ fs.readdir("./commands", (e, files) => {
     });
 });
 
-const starts = async aex => {
-    aex.on('qr', qr => {
+const starts = async riz => {
+    riz.on('qr', qr => {
         qrcode.generate(qr, { small: true })
         console.log(`[ ! ] Scan kode qr dengan whatsapp!`)
     })
 
-    aex.on('credentials-updated', () => {
+    riz.on('credentials-updated', () => {
         const authInfo = client.base64EncodedAuthInfo()
         console.log(`credentials updated!`)
 
-        fs.writeFileSync('./botane.json', JSON.stringify(authInfo, null, '\t'))
+        fs.writeFileSync('./session-zefian.json', JSON.stringify(authInfo, null, '\t'))
     })
 
-    fs.existsSync('./botane.json') && client.loadAuthInfo('./botane.json')
+    fs.existsSync('./session-zefian.json') && client.loadAuthInfo('./session-zefian.json')
 
-    aex.connect()
+    riz.connect()
 
-    aex.on('message-new', async message => {
+    riz.on('message-new', async message => {
         try {
             global.prefix;
 
@@ -70,7 +70,7 @@ const starts = async aex => {
             const isCmd = body.startsWith(prefix)
 
             const isBot = client.user.jid
-            const owner = '6282299265151@s.whatsapp.net'  // replace owner number
+            const owner = '6289630171792@s.whatsapp.net'  // replace owner number
             const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
             const groupName = isGroup ? groupMetadata.subject : ''
             const groupId   = isGroup ? groupMetadata.jid : ''
@@ -89,7 +89,7 @@ const starts = async aex => {
             console.log(availableCommands)
 
             if (availableCommands.has(argv))
-                require(`./commands/${argv}`).run(aex, message, args, from)
+                require(`./commands/${argv}`).run(riz, message, args, from)
         } catch (err) {
             throw err
         }

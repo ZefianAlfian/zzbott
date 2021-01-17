@@ -1,14 +1,15 @@
 {
-  "name": "botane",
+  "name": "zzbot",
   "version": "1.0.0",
   "description": "simple bot whatsapp",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibnusyawall/botane.git"
+    "url": "git+https://github.com/ZefianAlfian/zzbot.git"
   },
   "keywords": [
     "whatsapp",
@@ -18,15 +19,18 @@
   ],
   "dependencies": {
     "@adiwajshing/baileys": "^3.3.1",
-    "qrcode-terminal": "^0.12.0",
-    "moment-timezone": "^0.5.32",
+    "axios": "^0.21.1",
     "colors": "^1.4.0",
-    "mathjs": "^8.1.1"
+    "lodash": "^4.17.20",
+    "mathjs": "^8.1.1",
+    "moment-timezone": "^0.5.32",
+    "node-fetch": "^2.6.1",
+    "qrcode-terminal": "^0.12.0"
   },
-  "author": "ibnusyawall",
+  "author": "ZefianAlfian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ibnusyawall/botane/issues"
+    "url": "https://github.com/ZefianAlfian/zzbot/issues"
   },
-  "homepage": "https://github.com/ibnusyawall/botane#readme"
+  "homepage": "https://github.com/ZefianAlfian/zzbot/#readme"
 }

@@ -14,8 +14,8 @@ exports.run = async (bot, message, args, from) => {
 };
 
 exports.help = {
-    name: "Sticker",
+    name: "Stiker",
     description: "Make sticker whatsapp",
-    usage: "sticker with image",
+    usage: "stiker with image",
     cooldown: 5,
 };
