@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/ZefianAlfian/zzbot/master/images.jpeg"/>
+<img src="https://raw.githubusercontent.com/ZefianAlfian/zzbott/main/images.jpeg"/>
 </p>
 <p align="center">
 <a href="#"><img title="ZZBot" src="https://img.shields.io/badge/Zefian%20Whatsapp%20Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -9,9 +9,9 @@
 </p>
 <p align="center">
 <a href="https://github.com/zefianalfian/followers"><img title="Followers" src="https://img.shields.io/github/followers/zefianalfian?color=blue&style=flat-square"></a>
-<a href="https://github.com/ZefianAlfian/zzbot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zefianalfian/zzbot?color=red&style=flat-square"></a>
-<a href="https://github.com/zefianalfian/zzbot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zefianalfian/zzbot?color=red&style=flat-square"></a>
-<a href="https://github.com/zefianalfian/zzbot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zefianalfian/zzbot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/ZefianAlfian/zzbott/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zefianalfian/zzbott?color=red&style=flat-square"></a>
+<a href="https://github.com/zefianalfian/zzbott/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zefianalfian/zzbott?color=red&style=flat-square"></a>
+<a href="https://github.com/zefianalfian/zzbott/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zefianalfian/zzbott?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
 # zzbot
